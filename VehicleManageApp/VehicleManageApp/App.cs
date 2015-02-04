@@ -44,7 +44,7 @@ namespace VehicleManageApp
 			// Handle when your app resumes
 		}
 
-		public static Page LoginPage { get; private set; }
+		//public static Page LoginPage { get; private set; }
 
 		public static WelcomeViewModel WelcomeViewModel { get; set; }
 
