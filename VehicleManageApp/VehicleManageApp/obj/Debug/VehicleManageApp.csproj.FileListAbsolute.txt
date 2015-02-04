@@ -1,0 +1,11 @@
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\bin\Debug\VehicleManageApp.dll
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\bin\Debug\VehicleManageApp.pdb
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\bin\Debug\Xamarin.Forms.Core.dll
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\bin\Debug\Xamarin.Forms.Core.xml
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\obj\Debug\VehicleManageApp.dll
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\obj\Debug\VehicleManageApp.pdb
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\obj\Debug\LoginPage.xaml.g.cs
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\obj\Debug\WelcomePage.xaml.g.cs
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp\obj\Debug\VehicleManageApp.csprojResolveAssemblyReference.cache
