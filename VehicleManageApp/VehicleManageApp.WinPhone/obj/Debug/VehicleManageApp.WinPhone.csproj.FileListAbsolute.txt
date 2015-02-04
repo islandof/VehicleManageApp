@@ -15,10 +15,16 @@ D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\Xamarin.Forms.Core.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\Xamarin.Forms.Platform.WP8.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\System.Net.Http.dll
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\Newtonsoft.Json.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\System.Windows.Interactivity.dll
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\System.Net.Http.Primitives.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\VehicleManageApp.pdb
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\Xamarin.Forms.Core.xml
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\System.Net.Http.xml
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\Newtonsoft.Json.xml
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\System.Net.Http.Primitives.xml
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.WinPhone\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll

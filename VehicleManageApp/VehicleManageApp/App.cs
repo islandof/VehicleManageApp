@@ -26,7 +26,7 @@ namespace VehicleManageApp
 			//        }
 			//    }
 			//};
-			MainPage = new NavigationPage (new WelcomePage ());
+			MainPage = new NavigationPage (new HomePage());
 		}
 
 		protected override void OnStart ()
@@ -44,10 +44,12 @@ namespace VehicleManageApp
 			// Handle when your app resumes
 		}
 
-		//public static Page LoginPage { get; private set; }
+		public static Page LoginPage { get; private set; }
 
 		public static WelcomeViewModel WelcomeViewModel { get; set; }
 
 		public static LoginViewModel LoginViewModel{ get; set; }
+
+        public static HomePageViewModel HomePageViewModel { get; set; }
 	}
 }

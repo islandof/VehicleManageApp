@@ -12,7 +12,7 @@ namespace VehicleManageApp.Views
     {
         public LoginPage()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
     }
 }

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VehicleManageApp.Login2"
+             xmlns:local="clr-namespace:VehicleManageApp;assembly=VehicleManageApp"
+             Title="登陆"
+             BackgroundColor="White">
+  <StackLayout VerticalOptions="FillAndExpand" Padding="50">
+    <StackLayout.BindingContext>
+      <local:Login2ViewModel/>
+    </StackLayout.BindingContext>
+    <Frame Padding="75">
+      <Label Text="Login"
+      Font="Bold,Large"
+      HorizontalOptions="Center">
+        <Label.TextColor>
+          <OnPlatform x:TypeArguments="Color"
+				iOS="Accent"
+				WinPhone="Accent"
+				Android="#afcca6"/>
+        </Label.TextColor>
+      </Label>
+    </Frame>
+    <Label Text="用户名"
+           HorizontalOptions="Start"/>
+    <Entry Text="{Binding Username}"
+           Placeholder="输入用户名"
+           HorizontalOptions="FillAndExpand"></Entry>
+    <Label Text="密码"
+           HorizontalOptions="Start"/>
+    <Entry Text="{Binding Password}"
+           Placeholder="输入密码"
+           HorizontalOptions="FillAndExpand"></Entry>
+    <Button Text="登陆"
+            Command="{Binding LoginCommand}"
+            HorizontalOptions="CenterAndExpand"/>
+  </StackLayout>
+
+</ContentPage>
