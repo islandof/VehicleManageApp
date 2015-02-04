@@ -1,6 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="VehicleManageApp.Views.LoginPage">
-	<Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+             x:Class="VehicleManageApp.Views.LoginPage"
+             xmlns:local="clr-namespace:VehicleManageApp;assembly=VehicleManageApp"
+             BindingContext="{x:Static local:app.LoginViewModel}"
+             Title="登陆"
+             BackgroundColor="White">
+	<StackLayout VerticalOptions="FillAndExpand" Padding="50">
+		<Label Text="Login"
+		Font="Bold,Large"
+		HorizontalOptions="Center">
+			<Label.TextColor><OnPlatform x:TypeArguments="Color"
+				iOS="Accent"
+				WinPhone="Accent"
+				Android="#afcca6"/>
+			</Label.TextColor>
+		</Label>
+	</StackLayout>
+
 </ContentPage>
