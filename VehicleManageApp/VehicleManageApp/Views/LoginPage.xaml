@@ -25,11 +25,14 @@
            HorizontalOptions="Start"/>
     <Entry Text="{Binding Username}"
            Placeholder="输入用户名"
+           TextColor="Black"
            HorizontalOptions="FillAndExpand"></Entry>
     <Label Text="密码"
            HorizontalOptions="Start"/>
     <Entry Text="{Binding Password}"
            Placeholder="输入密码"
+           IsPassword="True"           
+           TextColor="Black"
            HorizontalOptions="FillAndExpand"></Entry>
     <Button Text="登陆"
             Command="{Binding LoginCommand}"

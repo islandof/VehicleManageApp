@@ -12,10 +12,14 @@ namespace VehicleManageApp.Services
         public async Task<bool> LoginAsync(string username, string password)
         {
             var client = new HttpClient {BaseAddress = new Uri("http://cloud.tescar.cn/home/")};
-            var response = await client.GetAsync("LoginSubmit2?UserName=admin&Pwd=123&isspe=1");
+            var response = await client.GetAsync("LoginSubmit2?UserName="+username+"&Pwd="+password+"&isspe=1");
             var loginJson =  response.Content.ReadAsStringAsync().Result;
-            var rootobject = JsonConvert.DeserializeObject<LoginViewModel>(loginJson);
-            return true;
+            var user = JsonConvert.DeserializeObject<LoginViewModel>(loginJson);
+            if (user.USER_ID != 0)
+            {
+                return true;    
+            }
+            return false;
         }
 
         
