@@ -134,5 +134,10 @@ namespace VehicleManageApp
             //return implementor.DisplayAlert("Question?", "Would you like to play a game", "Yes", "No");
             return implementor.DisplayAlert(title, message, accept, cancel);
         }
+
+        public Task DisplayAlert(string title, string message, string cancel)
+        {
+            return implementor.DisplayAlert(title, message, cancel);
+        }
     }
 }

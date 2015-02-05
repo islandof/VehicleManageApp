@@ -25,13 +25,16 @@ namespace VehicleManageApp.ViewModels
             this.LoginCommand = new Command(async (nothing) =>
             {
                 var result = await _loginService.LoginAsync(Username, Password);
-                if (result)
+                if (result.USER_ID>0)
                 {
+
+                    Application.Current.Properties["USER_ID"] = result.USER_ID;
+
                     await Navigation.PushAsync(new HomePage());
                 }
                 else
                 {
-                    await Navigation.DisplayAlert("错误", "输入的用户名或密码错误！", "确定","取消");
+                    await Navigation.DisplayAlert("错误", "输入的用户名或密码错误！", "确定");
                 }
 
             });

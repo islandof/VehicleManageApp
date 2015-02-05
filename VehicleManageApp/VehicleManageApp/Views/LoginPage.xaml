@@ -36,10 +36,7 @@
            HorizontalOptions="FillAndExpand"></Entry>
     <Button Text="登陆"
             Command="{Binding LoginCommand}"
-            HorizontalOptions="CenterAndExpand"/>
-    <Button Text="警告弹出"
-            Clicked="Button_OnClicked"
-            HorizontalOptions="CenterAndExpand"/>
+            HorizontalOptions="CenterAndExpand"/>    
 	</StackLayout>
 
 </ContentPage>

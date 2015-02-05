@@ -14,7 +14,15 @@ namespace VehicleManageApp
 		{
 			// The root page of your application			
             RegisterTypes();
-            MainPage = new NavigationPage(ViewFactory.CreatePage<LoginViewModel>());
+            
+		    var id = 0;
+            if (Application.Current.Properties.ContainsKey("USER_ID"))
+            {
+                id = (int)Application.Current.Properties["USER_ID"];
+                // do something with id
+            }
+		    MainPage = id > 0 ? new NavigationPage(new MainPage()) : new NavigationPage(ViewFactory.CreatePage<LoginViewModel>());
+            
 
 		}
 
