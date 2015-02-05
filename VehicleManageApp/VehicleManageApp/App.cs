@@ -12,23 +12,19 @@ namespace VehicleManageApp
 	{
 		public App ()
 		{
-			// The root page of your application
-			//MainPage = new ContentPage
-			//{
-			//    Content = new StackLayout
-			//    {
-			//        VerticalOptions = LayoutOptions.Center,
-			//        Children = {
-			//            new Label {
-			//                XAlign = TextAlignment.Center,
-			//                Text = "Welcome to Xamarin Forms!"
-			//            }
-			//        }
-			//    }
-			//};
-			MainPage = new NavigationPage (new HomePage());
+			// The root page of your application			
+            RegisterTypes();
+            MainPage = new NavigationPage(ViewFactory.CreatePage<LoginViewModel>());
+
 		}
 
+        static void RegisterTypes()
+        {
+            // This can be replaced by any number of MVVM tools. It is done this way merely because this 
+            // is not intended to be a demo of those tools.
+            ViewFactory.Register<LoginPage, LoginViewModel>();
+            //ViewFactory.Register<TodoItemPage, TodoItemViewModel>();
+        }
 		protected override void OnStart ()
 		{
 			// Handle when your app starts

@@ -6,10 +6,10 @@
              xmlns:vehicleManageApp="clr-namespace:VehicleManageApp.ViewModels;assembly=VehicleManageApp"             
              Title="登陆"
              BackgroundColor="White">
-	<StackLayout VerticalOptions="FillAndExpand" Padding="50">
-    <StackLayout.BindingContext>
-      <vehicleManageApp:LoginViewModel/>
-    </StackLayout.BindingContext>
+  <ContentPage.BindingContext>
+    <vehicleManageApp:LoginViewModel/>
+    </ContentPage.BindingContext>
+	<StackLayout VerticalOptions="FillAndExpand" Padding="50">    
     <Frame Padding="75">
 		<Label Text="Login"
 		Font="Bold,Large"

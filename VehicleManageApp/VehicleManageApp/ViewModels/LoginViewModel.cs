@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using VehicleManageApp.Mvvm;
 using VehicleManageApp.Services;
+using VehicleManageApp.Views;
 using Xamarin.Forms;
 
 namespace VehicleManageApp.ViewModels
@@ -15,14 +16,24 @@ namespace VehicleManageApp.ViewModels
     {
         
         //private readonly IAppNavigation _navigationService;
-
+        private ContentPage _page;
         public LoginViewModel()
         {
-            var _loginService = new LoginService();       
-            this.LoginCommand = new Command((nothing) =>
+            //_page = page;
+            var _loginService = new LoginService();
+            //this.LoginCommand=new Command(() => Navigation.Push(new HomePage()));
+            this.LoginCommand = new Command(async (nothing) =>
             {
-                var result = _loginService.LoginAsync(Username, Password);
-                
+                var result = await _loginService.LoginAsync(Username, Password);
+                if (result)
+                {
+                    await Navigation.PushAsync(new HomePage());
+                }
+                else
+                {
+                    
+                }
+
             });
             //_navigationService = navigationService;
         }
