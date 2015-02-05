@@ -6,9 +6,9 @@
              xmlns:vehicleManageApp="clr-namespace:VehicleManageApp.ViewModels;assembly=VehicleManageApp"             
              Title="登陆"
              BackgroundColor="White">
-  <ContentPage.BindingContext>
+  <!--<ContentPage.BindingContext>
     <vehicleManageApp:LoginViewModel/>
-    </ContentPage.BindingContext>
+    </ContentPage.BindingContext>-->
 	<StackLayout VerticalOptions="FillAndExpand" Padding="50">    
     <Frame Padding="75">
 		<Label Text="Login"
@@ -36,6 +36,9 @@
            HorizontalOptions="FillAndExpand"></Entry>
     <Button Text="登陆"
             Command="{Binding LoginCommand}"
+            HorizontalOptions="CenterAndExpand"/>
+    <Button Text="警告弹出"
+            Clicked="Button_OnClicked"
             HorizontalOptions="CenterAndExpand"/>
 	</StackLayout>
 

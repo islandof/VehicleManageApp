@@ -129,8 +129,9 @@ namespace VehicleManageApp
             get { throw new NotImplementedException(); }
         }
 
-        public Task<bool> DisplayAlert(string title, string message, string accept, string cancel=null)
+        public Task<bool> DisplayAlert(string title, string message, string accept, string cancel)
         {
+            //return implementor.DisplayAlert("Question?", "Would you like to play a game", "Yes", "No");
             return implementor.DisplayAlert(title, message, accept, cancel);
         }
     }
