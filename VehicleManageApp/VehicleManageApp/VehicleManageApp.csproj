@@ -35,14 +35,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="KeypadPage.xaml.cs">
-      <DependentUpon>KeypadPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="KeypadViewModel.cs" />
-    <Compile Include="Login2.xaml.cs">
-      <DependentUpon>Login2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Login2ViewModel.cs" />
     <Compile Include="Mvvm\SimpleCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ILoginService.cs" />
@@ -100,18 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\HomePage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="KeypadPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Login2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

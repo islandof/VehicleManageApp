@@ -31,7 +31,7 @@ namespace VehicleManageApp.ViewModels
                 }
                 else
                 {
-                    
+                    await Navigation.DisplayAlert("错误", "输入的用户名和密码错误！", "确定");
                 }
 
             });

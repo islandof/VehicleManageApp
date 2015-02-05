@@ -10,7 +10,7 @@ namespace VehicleManageApp
 {
     public class ViewModelNavigation : INavigation
     {
-        readonly Page implementor;
+        public Page implementor { get; set; }
 
         public ViewModelNavigation(Page implementor)
         {
@@ -127,6 +127,11 @@ namespace VehicleManageApp
         public IReadOnlyList<Page> ModalStack
         {
             get { throw new NotImplementedException(); }
+        }
+
+        public Task<bool> DisplayAlert(string title, string message, string accept, string cancel=null)
+        {
+            return implementor.DisplayAlert(title, message, accept, cancel);
         }
     }
 }

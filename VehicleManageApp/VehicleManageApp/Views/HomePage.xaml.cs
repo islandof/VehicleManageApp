@@ -19,9 +19,7 @@ namespace VehicleManageApp.Views
             List<HomePageViewModel> models = new List<HomePageViewModel>
             {
                 new HomePageViewModel(typeof(WelcomePage), NavigateTo, BrowseSource),
-                new HomePageViewModel(typeof(KeypadPage), NavigateTo, BrowseSource),
-                new HomePageViewModel(typeof(LoginPage), NavigateTo, BrowseSource),
-                new HomePageViewModel(typeof(Login2), NavigateTo, BrowseSource)
+                new HomePageViewModel(typeof(LoginPage), NavigateTo, BrowseSource)
             };
 
             listView.ItemsSource = models;
