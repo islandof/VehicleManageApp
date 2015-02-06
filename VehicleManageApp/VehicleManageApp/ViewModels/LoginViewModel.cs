@@ -30,7 +30,7 @@ namespace VehicleManageApp.ViewModels
 
                     Application.Current.Properties["USER_ID"] = result.USER_ID;
 
-                    await Navigation.PushAsync(new HomePage());
+                    await Navigation.PushAsync(new MainPage());
                 }
                 else
                 {

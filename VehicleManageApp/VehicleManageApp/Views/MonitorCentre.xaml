@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VehicleManageApp.Views.MonitorCentre"
+             xmlns:local="clr-namespace:VehicleManageApp.Views;assembly=VehicleManageApp" >
+	<Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"></ColumnDefinition>
+      <ColumnDefinition Width="*"></ColumnDefinition>
+      <ColumnDefinition Width="*"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    
+    <Button Grid.Row="0" Grid.Column="0" Text="危险驾驶" Image="dandrive.png" Opacity="50" BorderRadius="20" BackgroundColor="#BFEFFF" TextColor="Black"></Button>
+    <Button Grid.Row="0" Grid.Column="1" Text="栅栏报警"></Button>
+    <Button Grid.Row="0" Grid.Column="2" Text="位置查看"></Button>
+    
+    <Button Grid.Row="1" Grid.Column="0" Text="轨迹查询"></Button>
+    <Button Grid.Row="1" Grid.Column="1" Text="车况检查"></Button>
+    <Button Grid.Row="1" Grid.Column="2" Text="油耗"></Button>
+    
+    <Button Grid.Row="2" Grid.Column="0" Text="最近违章"></Button>
+    
+  </Grid>
+  
+</ContentPage>

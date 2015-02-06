@@ -131,6 +131,84 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <BundleResource Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dandrive.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dandrive2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fast.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gasolin.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gasolin2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\locate.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\locate2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\people.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\safe.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\safe2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\trace.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\trace2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vehicle.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\alert.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\alert2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\call.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\call2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\carsacn.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\carsafe.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\carscan2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\carscan3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\chart.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\clock.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\clock2.ico" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\VehicleManageApp\VehicleManageApp.csproj">
       <Project>{5467eb1d-a65b-4eaf-87c6-f21ff8b0360d}</Project>
       <Name>VehicleManageApp</Name>

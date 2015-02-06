@@ -4,7 +4,7 @@
              x:Class="VehicleManageApp.Views.MainPage"
              xmlns:local="clr-namespace:VehicleManageApp.Views;assembly=VehicleManageApp" >
   <TabbedPage.Children >
-    <local:HomePage Title="监控中心" ></local:HomePage>
+    <local:MonitorCentre Title="监控中心"></local:MonitorCentre>
     <local:LoginPage Title="车队管理"></local:LoginPage>
     <local:WelcomePage Title="消息中心"></local:WelcomePage>
   </TabbedPage.Children>

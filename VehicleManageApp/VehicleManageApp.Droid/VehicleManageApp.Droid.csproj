@@ -85,6 +85,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\drawable\alert2.ico" />
+    <AndroidResource Include="Resources\drawable\call.ico" />
+    <AndroidResource Include="Resources\drawable\call2.ico" />
+    <AndroidResource Include="Resources\drawable\carsacn.ico" />
+    <AndroidResource Include="Resources\drawable\carsafe.ico" />
+    <AndroidResource Include="Resources\drawable\carscan2.ico" />
+    <AndroidResource Include="Resources\drawable\carscan3.ico" />
+    <AndroidResource Include="Resources\drawable\chart.ico" />
+    <AndroidResource Include="Resources\drawable\clock.ico" />
+    <AndroidResource Include="Resources\drawable\clock2.ico" />
+    <AndroidResource Include="Resources\drawable\dandrive.ico" />
+    <AndroidResource Include="Resources\drawable\dandrive2.ico" />
+    <AndroidResource Include="Resources\drawable\fast.ico" />
+    <AndroidResource Include="Resources\drawable\gasolin.ico" />
+    <AndroidResource Include="Resources\drawable\gasolin2.ico" />
+    <AndroidResource Include="Resources\drawable\locate.ico" />
+    <AndroidResource Include="Resources\drawable\locate2.ico" />
+    <AndroidResource Include="Resources\drawable\people.ico" />
+    <AndroidResource Include="Resources\drawable\safe.ico" />
+    <AndroidResource Include="Resources\drawable\safe2.ico" />
+    <AndroidResource Include="Resources\drawable\search.ico" />
+    <AndroidResource Include="Resources\drawable\trace.ico" />
+    <AndroidResource Include="Resources\drawable\trace2.ico" />
+    <AndroidResource Include="Resources\drawable\vehicle.ico" />
+    <AndroidResource Include="Resources\drawable\alert.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VehicleManageApp\VehicleManageApp.csproj">

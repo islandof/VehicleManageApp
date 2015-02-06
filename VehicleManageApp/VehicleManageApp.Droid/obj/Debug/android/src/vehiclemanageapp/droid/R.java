@@ -11,8 +11,33 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
-        public static final int monoandroidsplash=0x7f020001;
+        public static final int alert=0x7f020000;
+        public static final int alert2=0x7f020001;
+        public static final int call=0x7f020002;
+        public static final int call2=0x7f020003;
+        public static final int carsacn=0x7f020004;
+        public static final int carsafe=0x7f020005;
+        public static final int carscan2=0x7f020006;
+        public static final int carscan3=0x7f020007;
+        public static final int chart=0x7f020008;
+        public static final int clock=0x7f020009;
+        public static final int clock2=0x7f02000a;
+        public static final int dandrive=0x7f02000b;
+        public static final int dandrive2=0x7f02000c;
+        public static final int fast=0x7f02000d;
+        public static final int gasolin=0x7f02000e;
+        public static final int gasolin2=0x7f02000f;
+        public static final int icon=0x7f020010;
+        public static final int locate=0x7f020011;
+        public static final int locate2=0x7f020012;
+        public static final int monoandroidsplash=0x7f020013;
+        public static final int people=0x7f020014;
+        public static final int safe=0x7f020015;
+        public static final int safe2=0x7f020016;
+        public static final int search=0x7f020017;
+        public static final int trace=0x7f020018;
+        public static final int trace2=0x7f020019;
+        public static final int vehicle=0x7f02001a;
     }
     public static final class style {
         public static final int Mono_Android_Theme_Splash=0x7f030000;
