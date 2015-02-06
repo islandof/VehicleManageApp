@@ -16,8 +16,14 @@ namespace VehicleManageApp.Views {
     
     public partial class LoginPage : ContentPage {
         
+        private Entry Username;
+        
+        private Entry Password;
+        
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(LoginPage));
+            Username = this.FindByName<Entry>("Username");
+            Password = this.FindByName<Entry>("Password");
         }
     }
 }

@@ -12,13 +12,14 @@ namespace VehicleManageApp.Views
     {
         public LoginPage()
         {
-            InitializeComponent();            
+            InitializeComponent();
+            
         }
 
-        private async void Button_OnClicked(object sender, EventArgs e)
+        private void VisualElement_OnFocused(object sender, FocusEventArgs e)
         {
-            var answer = await DisplayAlert("Question?", "Would you like to play a game", "Yes", "No");
-            
+            Username.Text = "admin";
+            Password.Text = "123";
         }
     }
 }

@@ -27,9 +27,9 @@ namespace VehicleManageApp.Views
             //    //Page page = (Page)Activator.CreateInstance(pageType);
             //    await this.Navigation.PushAsync(new LoginPage());
             //});
-            var client = new HttpClient();
-            client.BaseAddress= new Uri("http://cloud.tescar.cn/home/");
-            var response = client.GetAsync("LoginSubmit2?UserName=admin&Pwd=123&isspe=1");
+            //var client = new HttpClient();
+            //client.BaseAddress= new Uri("http://cloud.tescar.cn/home/");
+            //var response = client.GetAsync("LoginSubmit2?UserName=admin&Pwd=123&isspe=1");
             //var loginJson = response.Con
             
         }

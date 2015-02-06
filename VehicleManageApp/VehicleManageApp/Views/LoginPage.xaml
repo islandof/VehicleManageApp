@@ -23,17 +23,21 @@
     </Frame>
     <Label Text="用户名"
            HorizontalOptions="Start"/>
-    <Entry Text="{Binding Username}"
+    <Entry x:Name="Username"
+           Text="{Binding Username}"
+           Focused="VisualElement_OnFocused"
            Placeholder="输入用户名"
            TextColor="Black"
-           HorizontalOptions="FillAndExpand"></Entry>
+           HorizontalOptions="FillAndExpand"/>
     <Label Text="密码"
            HorizontalOptions="Start"/>
-    <Entry Text="{Binding Password}"
+    <Entry x:Name="Password"
+           Text="{Binding Password}"
            Placeholder="输入密码"
            IsPassword="True"           
            TextColor="Black"
-           HorizontalOptions="FillAndExpand"></Entry>
+           HorizontalOptions="FillAndExpand"
+           />
     <Button Text="登陆"
             Command="{Binding LoginCommand}"
             HorizontalOptions="CenterAndExpand"/>    
