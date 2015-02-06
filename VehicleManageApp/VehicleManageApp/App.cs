@@ -21,10 +21,15 @@ namespace VehicleManageApp
                 id = (int)Application.Current.Properties["USER_ID"];
                 // do something with id
             }
-		    MainPage = id > 0 ? new NavigationPage(new MainPage()) : new NavigationPage(ViewFactory.CreatePage<LoginViewModel>());
-            
 
-		}
+            //MainPage = id > 0 ? new NavigationPage(new MainPage()) : new NavigationPage(ViewFactory.CreatePage<LoginViewModel>());
+            #region testcase
+
+            MainPage = new NavigationPage(new MainPage());
+            //MainPage = new NavigationPage(new TestPage());
+
+            #endregion
+        }
 
         static void RegisterTypes()
         {

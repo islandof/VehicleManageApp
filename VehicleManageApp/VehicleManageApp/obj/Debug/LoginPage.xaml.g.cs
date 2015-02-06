@@ -20,10 +20,13 @@ namespace VehicleManageApp.Views {
         
         private Entry Password;
         
+        private Button btnLogin;
+        
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(LoginPage));
             Username = this.FindByName<Entry>("Username");
             Password = this.FindByName<Entry>("Password");
+            btnLogin = this.FindByName<Button>("btnLogin");
         }
     }
 }

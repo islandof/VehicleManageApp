@@ -38,7 +38,8 @@
            TextColor="Black"
            HorizontalOptions="FillAndExpand"
            />
-    <Button Text="登陆"
+    <Button x:Name ="btnLogin" 
+            Text="登陆"
             Command="{Binding LoginCommand}"
             HorizontalOptions="CenterAndExpand"/>    
 	</StackLayout>

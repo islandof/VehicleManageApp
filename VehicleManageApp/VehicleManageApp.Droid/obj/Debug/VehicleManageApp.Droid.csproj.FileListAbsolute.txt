@@ -26,8 +26,6 @@ D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\res\drawable-hdpi\icon.png
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\res\drawable-xhdpi\icon.png
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
-D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\R.cs.flag
-D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\uploadflags.txt
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\res\drawable\alert2.ico
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\res\drawable\call.ico
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\res\drawable\call2.ico
@@ -53,3 +51,5 @@ D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\res\drawable\trace2.ico
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\res\drawable\vehicle.ico
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\res\drawable\alert.ico
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\R.cs.flag
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\uploadflags.txt

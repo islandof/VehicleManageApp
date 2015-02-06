@@ -9,7 +9,13 @@
         <Setter Property="BackgroundColor" Value="#BFEFFF"/>
         <Setter Property="TextColor" Value="Black"/>
         <Setter Property="BorderRadius" Value="20"/>
+        <Setter Property="Font" Value="Small"/>
       </Style>
+      <OnPlatform x:Key="standardFont" x:TypeArguments="Font">
+        <OnPlatform.iOS>12</OnPlatform.iOS>
+        <OnPlatform.Android>12</OnPlatform.Android>
+        <OnPlatform.WinPhone>18</OnPlatform.WinPhone>
+      </OnPlatform>
     </ResourceDictionary>
   </ContentPage.Resources>
 	<Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White">
@@ -25,15 +31,20 @@
       <ColumnDefinition Width="*"></ColumnDefinition>
     </Grid.ColumnDefinitions>
     
-    <Button Grid.Row="0" Grid.Column="0" Text="危险驾驶" Image="dandrive.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
+    <!--<Button Grid.Row="0" Grid.Column="0" Text="危险驾驶" Image="dandrive.ico" Style="{StaticResource LayoutButtonStyle}"></Button>-->
+    <StackLayout Grid.Row="0" Grid.Column="0"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,10,0,0">
+      <Image Source="dandrive.ico"></Image>
+      <Button Text="危险驾驶" HorizontalOptions="Center" BackgroundColor="White" Font="{StaticResource standardFont}" TextColor="Black"/>
+    </StackLayout>
     <Button Grid.Row="0" Grid.Column="1" Text="栅栏报警" Image="alert2.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
     <Button Grid.Row="0" Grid.Column="2" Text="位置查看" Image="locate.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
     
     <Button Grid.Row="1" Grid.Column="0" Text="轨迹查询" Image="trace2.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
-    <Button Grid.Row="1" Grid.Column="1" Text="车况检查" Image="carsacn.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
+    <Button Grid.Row="1" Grid.Column="1" Text="车况检查" Image="safe2.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
     <Button Grid.Row="1" Grid.Column="2" Text="油耗" Image="gasolin.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
     
     <Button Grid.Row="2" Grid.Column="0" Text="最近违章" Image="search.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
+    <Button Grid.Row="2" Grid.Column="1" Text="最近违章" Image="search.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
     
   </Grid>
   

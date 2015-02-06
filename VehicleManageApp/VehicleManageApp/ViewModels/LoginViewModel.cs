@@ -19,11 +19,11 @@ namespace VehicleManageApp.ViewModels
         private ContentPage _page;
         public LoginViewModel()
         {
-            //_page = page;
+            //_page = page;            
             var _loginService = new LoginService();
             //this.LoginCommand=new Command(() => Navigation.Push(new HomePage()));
             this.LoginCommand = new Command(async (nothing) =>
-            {
+            {                
                 var result = await _loginService.LoginAsync(Username, Password);
                 if (result.USER_ID>0)
                 {
