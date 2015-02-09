@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace VehicleManageApp.Views
 {
-    public partial class TestPage : ContentPage
+    public partial class DangerDrive : CarouselPage
     {
-        public TestPage()
+        public DangerDrive()
         {
             InitializeComponent();
         }

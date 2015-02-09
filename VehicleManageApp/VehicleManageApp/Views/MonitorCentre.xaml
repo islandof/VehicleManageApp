@@ -6,10 +6,16 @@
   <ContentPage.Resources>
     <ResourceDictionary>
       <Style x:Key="LayoutButtonStyle" TargetType="Button">
-        <Setter Property="BackgroundColor" Value="#BFEFFF"/>
+        <Setter Property="BackgroundColor" Value="White"/>
         <Setter Property="TextColor" Value="Black"/>
-        <Setter Property="BorderRadius" Value="20"/>
+        <!--<Setter Property="BorderRadius" Value="20"/>-->
         <Setter Property="Font" Value="Small"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+      </Style>
+      <Style x:Key="LayoutLabelStyle" TargetType="Label">
+        <Setter Property="BackgroundColor" Value="White"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="TextColor" Value="Black"/>
       </Style>
       <OnPlatform x:Key="standardFont" x:TypeArguments="Font">
         <OnPlatform.iOS>12</OnPlatform.iOS>
@@ -32,11 +38,39 @@
     </Grid.ColumnDefinitions>
     
     <!--<Button Grid.Row="0" Grid.Column="0" Text="危险驾驶" Image="dandrive.ico" Style="{StaticResource LayoutButtonStyle}"></Button>-->
-    <StackLayout Grid.Row="0" Grid.Column="0"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,10,0,0">
-      <Image Source="dandrive.ico"></Image>
-      <Button Text="危险驾驶" HorizontalOptions="Center" BackgroundColor="White" Font="{StaticResource standardFont}" TextColor="Black"/>
+    <StackLayout Grid.Row="0" Grid.Column="0"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" >
+      <Button Image="dandrive.ico" Style="{StaticResource LayoutButtonStyle}" Clicked="Button_OnClicked"/>
+      <Label Text="危险驾驶"  Font="{StaticResource standardFont}" Style="{StaticResource LayoutLabelStyle}"/>
     </StackLayout>
-    <Button Grid.Row="0" Grid.Column="1" Text="栅栏报警" Image="alert2.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
+    <StackLayout Grid.Row="0" Grid.Column="1"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" >
+      <Button Image="alert2.ico" Style="{StaticResource LayoutButtonStyle}"/>
+      <Label Text="栅栏报警" Font="{StaticResource standardFont}" Style="{StaticResource LayoutLabelStyle}"/>
+    </StackLayout>
+    <StackLayout Grid.Row="0" Grid.Column="2"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" >
+      <Button Image="locate.ico" Style="{StaticResource LayoutButtonStyle}"/>
+      <Label Text="位置查看" Font="{StaticResource standardFont}" Style="{StaticResource LayoutLabelStyle}"/>
+    </StackLayout>
+
+    <StackLayout Grid.Row="1" Grid.Column="0"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" >
+      <Button Image="trace2.ico" Style="{StaticResource LayoutButtonStyle}"/>
+      <Label Text="轨迹查询" Font="{StaticResource standardFont}" Style="{StaticResource LayoutLabelStyle}"/>
+    </StackLayout>
+    <StackLayout Grid.Row="1" Grid.Column="1"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" >
+      <Button Image="safe2.ico" Style="{StaticResource LayoutButtonStyle}"/>
+      <Label Text="车况检查" Font="{StaticResource standardFont}" Style="{StaticResource LayoutLabelStyle}"/>
+    </StackLayout>
+    <StackLayout Grid.Row="1" Grid.Column="2"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" >
+      <Button Image="gasolin.ico" Style="{StaticResource LayoutButtonStyle}"/>
+      <Label Text="油耗" Font="{StaticResource standardFont}" Style="{StaticResource LayoutLabelStyle}"/>
+    </StackLayout>
+
+    <StackLayout Grid.Row="2" Grid.Column="0"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" >
+      <Button Image="search.ico" Style="{StaticResource LayoutButtonStyle}"/>
+      <Label Text="最近违章" Font="{StaticResource standardFont}" Style="{StaticResource LayoutLabelStyle}"/>
+    </StackLayout>
+    
+    
+    <!--<Button Grid.Row="0" Grid.Column="1" Text="栅栏报警" Image="alert2.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
     <Button Grid.Row="0" Grid.Column="2" Text="位置查看" Image="locate.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
     
     <Button Grid.Row="1" Grid.Column="0" Text="轨迹查询" Image="trace2.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
@@ -44,7 +78,7 @@
     <Button Grid.Row="1" Grid.Column="2" Text="油耗" Image="gasolin.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
     
     <Button Grid.Row="2" Grid.Column="0" Text="最近违章" Image="search.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
-    <Button Grid.Row="2" Grid.Column="1" Text="最近违章" Image="search.ico" Style="{StaticResource LayoutButtonStyle}"></Button>
+    <Button Grid.Row="2" Grid.Column="1" Text="最近违章" Image="search.ico" Style="{StaticResource LayoutButtonStyle}"></Button>-->
     
   </Grid>
   

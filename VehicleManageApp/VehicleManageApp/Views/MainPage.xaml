@@ -4,8 +4,8 @@
              x:Class="VehicleManageApp.Views.MainPage"
              xmlns:local="clr-namespace:VehicleManageApp.Views;assembly=VehicleManageApp" >
   <TabbedPage.Children >
-    <local:MonitorCentre Title="监控中心"></local:MonitorCentre>
-    <local:CarManage Title="车队管理"></local:CarManage>
-    <local:WelcomePage Title="消息中心"></local:WelcomePage>
+    <local:MonitorCentre Title="监控中心" Icon="monitor.ico"/>
+    <local:CarManage Title="车队管理" Icon="carmanage.ico"/>
+    <local:WelcomePage Title="消息中心" Icon="messagecentre.ico"/>
   </TabbedPage.Children>
 </TabbedPage>

@@ -209,6 +209,15 @@
     <BundleResource Include="Resources\clock2.ico" />
   </ItemGroup>
   <ItemGroup>
+    <BundleResource Include="Resources\monitor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\carmanage.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\messagecentre.ico" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\VehicleManageApp\VehicleManageApp.csproj">
       <Project>{5467eb1d-a65b-4eaf-87c6-f21ff8b0360d}</Project>
       <Name>VehicleManageApp</Name>

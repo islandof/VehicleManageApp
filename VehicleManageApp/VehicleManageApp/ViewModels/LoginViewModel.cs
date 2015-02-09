@@ -14,7 +14,23 @@ namespace VehicleManageApp.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
-        
+
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public int USER_ID { get; set; }
+        public string USER_NAME { get; set; }
+        public string USER_NAME_EN { get; set; }
+        public string USER_PWD { get; set; }
+        public Nullable<int> DEPT_ID { get; set; }
+        public string DEPT_NAME { get; set; }
+        public Nullable<int> ROLE_ID { get; set; }
+        public string ROLE_NAME { get; set; }
+        public System.DateTime CREATE_DATE { get; set; }
+        public string USER_EMAIL { get; set; }
+        public Nullable<int> companyid { get; set; }
+        public string companyname { get; set; }
+        //public ICommand LoginCommand { get { return new SimpleCommand(Login); } }
+        public ICommand LoginCommand { private set; get; }
         //private readonly IAppNavigation _navigationService;
         private ContentPage _page;
         public LoginViewModel()
@@ -40,22 +56,6 @@ namespace VehicleManageApp.ViewModels
             });
             //_navigationService = navigationService;
         }
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public int USER_ID { get; set; }
-        public string USER_NAME { get; set; }
-        public string USER_NAME_EN { get; set; }
-        public string USER_PWD { get; set; }
-        public Nullable<int> DEPT_ID { get; set; }
-        public string DEPT_NAME { get; set; }
-        public Nullable<int> ROLE_ID { get; set; }
-        public string ROLE_NAME { get; set; }
-        public System.DateTime CREATE_DATE { get; set; }
-        public string USER_EMAIL { get; set; }
-        public Nullable<int> companyid { get; set; }
-        public string companyname { get; set; }
-        //public ICommand LoginCommand { get { return new SimpleCommand(Login); } }
-        public ICommand LoginCommand { private set; get; }
         
     }
 }
