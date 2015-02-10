@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Async\NotifyTaskCompletion.cs" />
+    <Compile Include="Model\DangerDrive.cs" />
     <Compile Include="Mvvm\SimpleCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\IDanDriveService.cs" />

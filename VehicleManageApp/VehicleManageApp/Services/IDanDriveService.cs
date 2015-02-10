@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using VehicleManageApp.ViewModels;
+using VehicleManageApp.Model;
 
 namespace VehicleManageApp.Services
 {
     public interface IDanDriveService
     {
-        Task<List<DangerDriveViewModel>> GetDangerDriveList();
+        Task<List<DangerDrive>> GetDangerDriveList();
     }
 }
