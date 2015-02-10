@@ -14,7 +14,29 @@ namespace VehicleManageApp.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
+        public LoginViewModel()
+        {
+            //_page = page;            
+            var _loginService = new LoginService();
+            //this.LoginCommand=new Command(() => Navigation.Push(new HomePage()));
+            this.LoginCommand = new Command(async (nothing) =>
+            {
+                var result = await _loginService.LoginAsync(Username, Password);
+                if (result.USER_ID > 0)
+                {
 
+                    Application.Current.Properties["USER_ID"] = result.USER_ID;
+
+                    await Navigation.PushAsync(new MainPage());
+                }
+                else
+                {
+                    await Navigation.DisplayAlert("错误", "输入的用户名或密码错误！", "确定");
+                }
+
+            });
+            //_navigationService = navigationService;
+        }
         public string Username { get; set; }
         public string Password { get; set; }
         public int USER_ID { get; set; }
@@ -33,29 +55,7 @@ namespace VehicleManageApp.ViewModels
         public ICommand LoginCommand { private set; get; }
         //private readonly IAppNavigation _navigationService;
         private ContentPage _page;
-        public LoginViewModel()
-        {
-            //_page = page;            
-            var _loginService = new LoginService();
-            //this.LoginCommand=new Command(() => Navigation.Push(new HomePage()));
-            this.LoginCommand = new Command(async (nothing) =>
-            {                
-                var result = await _loginService.LoginAsync(Username, Password);
-                if (result.USER_ID>0)
-                {
-
-                    Application.Current.Properties["USER_ID"] = result.USER_ID;
-
-                    await Navigation.PushAsync(new MainPage());
-                }
-                else
-                {
-                    await Navigation.DisplayAlert("错误", "输入的用户名或密码错误！", "确定");
-                }
-
-            });
-            //_navigationService = navigationService;
-        }
+        
         
     }
 }

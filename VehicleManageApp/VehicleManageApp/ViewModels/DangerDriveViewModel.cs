@@ -1,13 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VehicleManageApp.Async;
+using VehicleManageApp.Services;
 
 namespace VehicleManageApp.ViewModels
 {
     public class DangerDriveViewModel : BaseViewModel
     {
+        private static int count = 0;
+        public DangerDriveViewModel()
+        {
+            //var _dangerDriveService = new DanDriveService();
+            //var result = await _dangerDriveService.GetDangerDriveList();
+            //DangerDriveList = new NotifyTaskCompletion<List<DangerDriveViewModel>>(GetDangerDriveList());
+            //Debug.WriteLine(count++.ToString());
+        }
+
+        private async Task<List<DangerDriveViewModel>> GetDangerDriveList()
+        {
+            var _dangerDriveService = new DanDriveService();
+            var result = await _dangerDriveService.GetDangerDriveList();
+            DangerDriveList = result;
+            return result;
+        }
+
+        public List<DangerDriveViewModel> DangerDriveList { get; private set; }
+
         public string ownercompanyname { get; set; }
 
         public string chepaino { get; set; }
@@ -47,6 +69,7 @@ namespace VehicleManageApp.ViewModels
         public string Ala34 { get; set; }
 
         public string Ala35 { get; set; }
+
 
     }
 }
