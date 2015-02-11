@@ -16,7 +16,28 @@ namespace VehicleManageApp.ViewModels
         public DangerDriveViewModel(DangerDrive dangerDrive)
         {
             _dangerDrive = dangerDrive;
+            ownercompanyname = dangerDrive.ownercompanyname;
             chepaino = dangerDrive.chepaino;
+            Ala10 = dangerDrive.Ala10;
+            Ala11 = dangerDrive.Ala11;
+            Ala12 = dangerDrive.Ala12;
+            Ala13 = dangerDrive.Ala13;
+            Ala14 = dangerDrive.Ala14;
+            Ala15 = dangerDrive.Ala15;
+            Ala16 = dangerDrive.Ala16;
+            Ala17 = dangerDrive.Ala17;
+            Ala18 = dangerDrive.Ala18;
+            Ala19 = dangerDrive.Ala19;
+            Ala20 = dangerDrive.Ala20;
+
+            Ala21 = dangerDrive.Ala21;
+
+            Ala30 = dangerDrive.Ala30;
+            Ala31 = dangerDrive.Ala31;
+            Ala32 = dangerDrive.Ala32;
+            Ala33 = dangerDrive.Ala33;
+            Ala34 = dangerDrive.Ala34;
+            Ala35 = dangerDrive.Ala35;
         }
 
         public string ownercompanyname { get; set; }

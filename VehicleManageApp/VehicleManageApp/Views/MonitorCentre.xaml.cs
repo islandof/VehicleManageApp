@@ -17,7 +17,7 @@ namespace VehicleManageApp.Views
 
         private void Button_OnClicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new NavigationPage(ViewFactory.CreatePage<DangerDriveListViewModel>()));
+            Navigation.PushAsync(ViewFactory.CreatePage<DangerDriveListViewModel>());
         }
     }
 }

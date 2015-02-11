@@ -5,12 +5,15 @@ D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\VehicleManageApp.Droid.apk
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\VehicleManageApp.Droid-Signed.apk
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\FormsViewGroup.dll
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\VehicleManageApp.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\Xamarin.Forms.Core.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\Newtonsoft.Json.dll
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\System.Net.Http.Primitives.dll
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\VehicleManageApp.pdb
+D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\VehicleManageApp.dll.mdb
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\Xamarin.Forms.Core.xml
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\Newtonsoft.Json.xml
@@ -50,6 +53,3 @@ D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\res\drawable\alert.ico
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\R.cs.flag
 D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\obj\Debug\uploadflags.txt
-D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\VehicleManageApp.dll
-D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\VehicleManageApp.pdb
-D:\Documents\GitHub\VehicleManageApp\VehicleManageApp\VehicleManageApp.Droid\bin\Debug\VehicleManageApp.dll.mdb
