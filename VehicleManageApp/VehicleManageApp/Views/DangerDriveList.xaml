@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VehicleManageApp.Views.DangerDriveList">
+  <CarouselPage.Resources>
+    <ResourceDictionary>
+      <Style x:Key="HeaderStyle" TargetType="Label">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <Setter Property="BackgroundColor" Value="Aqua"/>
+        <Setter Property="TextColor" Value="Black"/>
+      </Style>  
+      
+    </ResourceDictionary>    
+  </CarouselPage.Resources>
+  <ContentPage Title="危险驾驶1">    
+    <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand" >
+      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+        <Label Text="车牌号" Style="{StaticResource HeaderStyle}"/>
+        <Label Text="车牌号" Style="{StaticResource HeaderStyle}"/>
+        <Label Text="车牌号" Style="{StaticResource HeaderStyle}"/>
+        <Label Text="车牌号" Style="{StaticResource HeaderStyle}"/>
+      </StackLayout>
+      <!--<ListView HorizontalOptions="FillAndExpand" ItemsSource="{Binding DangerDriveList}">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <StackLayout>
+              <Label Text="{Binding chepaino}"/>
+            </StackLayout>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>-->
+      <ListView ItemsSource="{Binding DangerDriveList.Result}" HorizontalOptions="FillAndExpand">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <TextCell Text="{Binding chepaino}"
+                      Detail="{Binding chepaino}">
+            </TextCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+  </ContentPage>
+  <ContentPage Title="危险驾驶2">
+    <StackLayout Orientation="Vertical">
+      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+        <Label Text="车牌号" Style="{StaticResource HeaderStyle}"/>
+        <Label Text="车牌号" Style="{StaticResource HeaderStyle}"/>
+        <Label Text="车牌号" Style="{StaticResource HeaderStyle}"/>
+        <Label Text="车牌号" Style="{StaticResource HeaderStyle}"/>
+      </StackLayout>
+      <ListView>
+      </ListView>
+    </StackLayout>
+  </ContentPage>
+</CarouselPage>

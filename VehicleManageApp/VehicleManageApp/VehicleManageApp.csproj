@@ -46,6 +46,7 @@
     <Compile Include="ViewFactory.cs" />
     <Compile Include="ViewModelNavigation.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\DangerDriveListViewModel.cs" />
     <Compile Include="ViewModels\DangerDriveViewModel.cs" />
     <Compile Include="ViewModels\FormatRows.cs" />
     <Compile Include="ViewModels\HomePageViewModel.cs" />
@@ -54,8 +55,8 @@
     <Compile Include="Views\CarManage.xaml.cs">
       <DependentUpon>CarManage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\DangerDrive.xaml.cs">
-      <DependentUpon>DangerDrive.xaml</DependentUpon>
+    <Compile Include="Views\DangerDriveList.xaml.cs">
+      <DependentUpon>DangerDriveList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
@@ -74,10 +75,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Views\DangerDrive.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <EmbeddedResource Include="Views\LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -132,6 +129,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\CarManage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\DangerDriveList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
